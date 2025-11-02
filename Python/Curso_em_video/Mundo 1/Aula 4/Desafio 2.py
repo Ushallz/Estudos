@@ -1,4 +1,4 @@
-nome=input('qual é o seu nome?')
-idade=input('qual é a sua idade?')
-peso=input('quantos kgs você pesa?')
-print('seu nome é', nome, 'você pesa',peso, 'kgs e tem', idade, 'anos de idade.')
+dia=input('em qual dia você nasceu?')
+mes=input('e em que mês?')
+ano=input('de qual ano?')
+print('então você nasceu no dia' +dia, 'de' +mes, ', no ano de' +ano)
