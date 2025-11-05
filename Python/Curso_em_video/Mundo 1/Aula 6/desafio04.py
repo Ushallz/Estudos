@@ -1,9 +1,11 @@
-alg1 =float(input('escreva um número'))
+thx= input('digite algo')
 
-alg2 =float(input('outro número'))
+print('você digitou uma letra?',thx.isalpha())
+print('se é uma letra, foi digitada em capslock?', thx.isupper())
+print('se é uma letra, foi digitada em minúsculo?', thx.islower())
+print('você digitou um número?', thx.isnumeric())
+print('se for um número, é decimal?', thx.isdecimal())
+print('você digitou uma letra ou número? (ou ambos)?',thx.isalnum())
+print('independente do que for, contém algum espaço?', thx.isspace())
 
-algX=alg1+alg2
-
-print('a soma entre', alg1,'e', alg2, 'resultará em', algX)
-
-print(type(algX))
+'upper, lower, space, decimal, numeruic'
