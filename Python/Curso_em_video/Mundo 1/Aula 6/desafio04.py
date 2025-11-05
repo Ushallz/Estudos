@@ -7,5 +7,3 @@ print('você digitou um número?', thx.isnumeric())
 print('se for um número, é decimal?', thx.isdecimal())
 print('você digitou uma letra ou número? (ou ambos)?',thx.isalnum())
 print('independente do que for, contém algum espaço?', thx.isspace())
-
-'upper, lower, space, decimal, numeruic'
